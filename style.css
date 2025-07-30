@@ -1,0 +1,75 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebar {
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  padding: 1.5rem 1rem;
+}
+
+.card-orange {
+  background-color: #f69c00;
+  border: none;
+  color: white;
+  border-radius: 12px;
+}
+
+.score-img-wrapper {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.score-img-wrapper img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+}
+
+.summary-box {
+  background: linear-gradient(135deg, #21db10, #816f6f);
+  border-radius: 12px;
+  padding: 1.5rem;
+  font-weight: 500;
+  min-height: 130px;
+}
+
+.summary-box h5 {
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.subject-table {
+  width: 100%;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.subject-table th,
+.subject-table td {
+  color: #fff;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+}
+
+.subject-table thead th {
+  background-color: #111;
+  border-bottom: 1px solid #333;
+}
+
+.btn-solution {
+  background-color: #007bff;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn-solution:hover {
+  background-color: #0056b3;
+}
